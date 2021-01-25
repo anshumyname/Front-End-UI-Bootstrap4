@@ -73,3 +73,17 @@ body {
     position: absolute;
     bottom: 0px;
 }
+
+
+#reservemodal .modal-header, #loginModal .modal-header {
+    background-color: $background-dark;
+    color: #ddd;
+
+    .close {
+        color: floralwhite;
+    }
+}
+
+#reservemodal .modal-body,#loginModal .modal-body {
+    background-color: $background-pale;
+}
